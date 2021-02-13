@@ -1,4 +1,4 @@
-package com.github.tbm98.fluttergeneratorsnippetsv2
+package com.github.tbm98.fluttergeneratorsnippets
 
 import com.intellij.AbstractBundle
 import org.jetbrains.annotations.NonNls

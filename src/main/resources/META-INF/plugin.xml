@@ -1,6 +1,6 @@
 <idea-plugin>
-    <id>com.github.tbm98.fluttergeneratorsnippetsv2</id>
-    <name>flutter_generator_snippets_v2</name>
+    <id>com.github.tbm98.fluttergeneratorsnippets</id>
+    <name>flutter_generator_snippets</name>
     <vendor>tbm98</vendor>
 
     <!-- Product and plugin compatibility requirements -->
@@ -8,12 +8,12 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.tbm98.fluttergeneratorsnippetsv2.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.tbm98.fluttergeneratorsnippetsv2.services.MyProjectService"/>
+        <applicationService serviceImplementation="com.github.tbm98.fluttergeneratorsnippets.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.github.tbm98.fluttergeneratorsnippets.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.tbm98.fluttergeneratorsnippetsv2.listeners.MyProjectManagerListener"
+        <listener class="com.github.tbm98.fluttergeneratorsnippets.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>

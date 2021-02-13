@@ -1,4 +1,4 @@
-package com.github.tbm98.fluttergeneratorsnippetsv2.services
+package com.github.tbm98.fluttergeneratorsnippets.services
 
 import com.github.tbm98.fluttergeneratorsnippetsv2.MyBundle
 import com.intellij.openapi.project.Project
