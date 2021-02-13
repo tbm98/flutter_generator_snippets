@@ -2,10 +2,14 @@
 
 # flutter Generator Snippets Changelog
 
-## 1.1
+## 1.1.2
+
+- just for test ci/cd
+
+## 1.1.1
 
 - required since-build 202.5103.13<br>
 
-## 1.0
+## 1.0.0
 
 - First release

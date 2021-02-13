@@ -1,7 +1,7 @@
 <idea-plugin>
-    <id>com.github.tbm98.fluttergeneratorsnippets</id>
-    <name>flutter_generator_snippets</name>
-    <vendor>tbm98</vendor>
+    <id>io.github.tbm98.flutter_generator_snippets</id>
+    <name>Flutter Generator Snippets</name>
+    <vendor email="tbm98.dev@gmail.com" url="https://tbm98.dev">tbm98</vendor>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
@@ -10,6 +10,8 @@
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.github.tbm98.fluttergeneratorsnippets.services.MyApplicationService"/>
         <projectService serviceImplementation="com.github.tbm98.fluttergeneratorsnippets.services.MyProjectService"/>
+        <defaultLiveTemplates file="/liveTemplates/Flutter_generator_snippets.xml"/>
+        <liveTemplateContext implementation="com.github.tbm98.fluttergeneratorsnippets.FlutterContext" />
     </extensions>
 
     <applicationListeners>
