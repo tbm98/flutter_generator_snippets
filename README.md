@@ -33,3 +33,18 @@ To keep everything working, do not remove `<!-- ... -->` sections.
 Plugin based on the [IntelliJ Platform Plugin Template][template].
 
 [template]: https://github.com/JetBrains/intellij-platform-plugin-template
+# Flutter generator snippets
+
+This plugin help you to write generator's template quickly
+
+json inside
+![json-inside](demo/json-inside.png)
+
+json outside
+![json-inside](demo/json-outside.png)
+
+freezed
+![json-inside](demo/freezed.png)
+## Requirements
+
+IntelliJ based: since-build: 202.5103.13 [learn more](https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html)
