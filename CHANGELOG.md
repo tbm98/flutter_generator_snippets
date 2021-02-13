@@ -1,6 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# flutter_generator_snippets_v2 Changelog
+# flutter_generator_snippets Changelog
 
 ## [Unreleased]
 ### Added

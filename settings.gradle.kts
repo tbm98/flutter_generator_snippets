@@ -1,1 +1,1 @@
-rootProject.name = "flutter_generator_snippets_v2"
+rootProject.name = "flutter_generator_snippets"
