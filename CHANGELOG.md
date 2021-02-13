@@ -2,6 +2,11 @@
 
 # flutter Generator Snippets Changelog
 
+## [Unreleased]
+## 1.1.3
+### Added
+- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+
 ## 1.1.2
 
 - just for test ci/cd
