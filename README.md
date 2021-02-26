@@ -9,7 +9,13 @@
 - [ ] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html).
 
 <!-- Plugin description -->
-This plugin help you to write generator's template quickly
+This plugin help you to write generator's template quickly <br>
+Freezed <br>
+<img width="400" src="https://gist.githubusercontent.com/tbm98/3726c42cf2c06f70d44606070eb1bf8d/raw/1286b354e0236833191998970e5988891b5451e8/freezed.png" alt="Freezed">
+<br>json-outside <br>
+<img width="400" src="https://gist.githubusercontent.com/tbm98/3726c42cf2c06f70d44606070eb1bf8d/raw/1286b354e0236833191998970e5988891b5451e8/json-outside.png" alt="Freezed">
+<br>json-inside <br>
+<img width="400" src="https://gist.githubusercontent.com/tbm98/3726c42cf2c06f70d44606070eb1bf8d/raw/1286b354e0236833191998970e5988891b5451e8/json-inside.png" alt="Freezed">
 <!-- Plugin description end -->
 
 ## Installation

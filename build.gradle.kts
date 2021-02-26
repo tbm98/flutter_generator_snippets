@@ -114,7 +114,9 @@ tasks {
         // Get the latest available change notes from the changelog file
         changeNotes(
             closure {
-                changelog.getLatest().toHTML()
+                var msg = ""
+                changelog.getAll().forEach { (key, value) -> msg += "<h1>$key</h1><br>$value<br><br>" }
+                msg.replace("\n", "<br>")
             }
         )
     }
