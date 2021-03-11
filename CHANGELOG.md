@@ -2,18 +2,10 @@
 
 # flutter Generator Snippets Changelog
 
-## [Unreleased]
+
+## 1.1.5
 ### Added
-
-### Changed
-
-### Deprecated
-
-### Removed
-
-### Fixed
-
-### Security
+- support json fieldRename: snake in freezed by default
 
 ## 1.1.4 
 ### Added
@@ -37,3 +29,16 @@
 ## 1.0.0
 ### Changed
 - First release
+
+## [Unreleased]
+### Added
+
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
