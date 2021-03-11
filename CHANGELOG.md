@@ -42,3 +42,15 @@
 ### Fixed
 
 ### Security
+## [1.1.5]
+### Added
+
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
