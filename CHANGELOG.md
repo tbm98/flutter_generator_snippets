@@ -1,7 +1,20 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
+## [Unreleased]
+### Added
 
-# flutter Generator Snippets Changelog
+### Changed
+- update code base
+### Deprecated
 
+### Removed
+
+### Fixed
+
+### Security
+
+## 1.1.6
+### Changed
+- update code base
 
 ## 1.1.5
 ### Added
@@ -29,28 +42,3 @@
 ## 1.0.0
 ### Changed
 - First release
-
-## [Unreleased]
-### Added
-
-### Changed
-
-### Deprecated
-
-### Removed
-
-### Fixed
-
-### Security
-## [1.1.5]
-### Added
-
-### Changed
-
-### Deprecated
-
-### Removed
-
-### Fixed
-
-### Security

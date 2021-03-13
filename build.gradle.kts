@@ -99,15 +99,7 @@ tasks {
         // Extract the <!-- Plugin description --> section from README.md and provide for the plugin's manifest
         pluginDescription(
             closure {
-                File("./README.md").readText().lines().run {
-                    val start = "<!-- Plugin description -->"
-                    val end = "<!-- Plugin description end -->"
-
-                    if (!containsAll(listOf(start, end))) {
-                        throw GradleException("Plugin description section not found in README.md:\n$start ... $end")
-                    }
-                    subList(indexOf(start) + 1, indexOf(end))
-                }.joinToString("\n").run { markdownToHTML(this) }
+                File("./PLUGIN_DESCRIPTION.md").readText().lines().joinToString("\n").run { markdownToHTML(this) }
             }
         )
 
@@ -115,8 +107,16 @@ tasks {
         changeNotes(
             closure {
                 var msg = ""
-                changelog.getAll().forEach { (key, value) -> msg += "<h1>$key</h1><br>$value<br><br>" }
-                msg.replace("\n", "<br>")
+                changelog.getAll().forEach { (key, value) ->
+                        run {
+                            if (key != "[Unreleased]") {
+                                msg += "[$key]\n$value\n\n"
+                            }
+                        }
+                    }
+                msg.run {
+                    markdownToHTML(this)
+                }
             }
         )
     }
