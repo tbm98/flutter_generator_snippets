@@ -108,12 +108,12 @@ tasks {
             closure {
                 var msg = ""
                 changelog.getAll().forEach { (key, value) ->
-                        run {
-                            if (key != "[Unreleased]") {
-                                msg += "<h1>${value.version}</h1>${value.toHTML()}<br>"
-                            }
+                    run {
+                        if (key != "[Unreleased]") {
+                            msg += "<h1>${value.version}</h1>${value.toHTML()}<br>"
                         }
                     }
+                }
                 msg
             }
         )
