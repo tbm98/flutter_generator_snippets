@@ -3,6 +3,18 @@
 ### Added
 
 ### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+## [1.1.6]
+### Added
+
+### Changed
 - update code base
 ### Deprecated
 
