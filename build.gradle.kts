@@ -110,13 +110,11 @@ tasks {
                 changelog.getAll().forEach { (key, value) ->
                         run {
                             if (key != "[Unreleased]") {
-                                msg += "[$key]\n$value\n\n"
+                                msg += "<h1>${value.version}</h1>${value.toHTML()}<br>"
                             }
                         }
                     }
-                msg.run {
-                    markdownToHTML(this)
-                }
+                msg
             }
         )
     }
