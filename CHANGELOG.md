@@ -11,6 +11,7 @@
 ### Fixed
 
 ### Security
+<!-- end unreleased -->
 
 ## 1.1.6
 ### Changed

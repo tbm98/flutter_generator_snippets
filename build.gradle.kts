@@ -106,15 +106,11 @@ tasks {
         // Get the latest available change notes from the changelog file
         changeNotes(
             closure {
-                var msg = ""
-                changelog.getAll().forEach { (key, value) ->
-                    run {
-                        if (key != "[Unreleased]") {
-                            msg += "<h1>${value.version}</h1>${value.toHTML()}<br>"
-                        }
-                    }
-                }
-                msg
+                File("./CHANGELOG.md")
+                    .readText()
+                    .split("<!-- end unreleased -->")[1].lines()
+                    .joinToString("\n")
+                    .run { markdownToHTML(this) }
             }
         )
     }
