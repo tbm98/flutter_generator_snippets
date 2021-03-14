@@ -1,4 +1,4 @@
-# Flutter generator snippets
+# Flutter snippet for generator tool
 
 ![Build](https://github.com/tbm98/flutter_generator_snippets/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/15774.svg)](https://plugins.jetbrains.com/plugin/15774)
@@ -25,7 +25,7 @@ IntelliJ based: since-build: 202 [learn more](https://www.jetbrains.org/intellij
 
 - Using IDE built-in plugin system:
   
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "flutter_generator_snippets"</kbd> >
+  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Flutter snippet for generator tool"</kbd> >
   <kbd>Install Plugin</kbd>
   
 - Manually:
