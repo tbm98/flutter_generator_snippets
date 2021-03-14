@@ -1,6 +1,6 @@
-This plugin help you to write generator's template quickly
+This plugin helps you to write a generator's template quickly
 
-Current it support Freezed, JsonSerializable
+Current it supports Freezed, JsonSerializable
 
 Freezed
 
