@@ -1,5 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 ## [Latest release]
+## [1.1.7]
 - change name and icon plugin
 
 ## [1.1.6]
