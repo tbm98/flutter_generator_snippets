@@ -1,5 +1,7 @@
 This plugin help you to write generator's template quickly
 
+Current it support Freezed, JsonSerializable
+
 Freezed
 
 <img width="400" src="https://gist.githubusercontent.com/tbm98/3726c42cf2c06f70d44606070eb1bf8d/raw/1286b354e0236833191998970e5988891b5451e8/freezed.png" alt="Freezed">
