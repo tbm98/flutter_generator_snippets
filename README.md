@@ -4,9 +4,9 @@
 [![Version](https://img.shields.io/jetbrains/plugin/v/15774.svg)](https://plugins.jetbrains.com/plugin/15774)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/15774.svg)](https://plugins.jetbrains.com/plugin/15774)
 
-This plugin help you to write generator's template quickly
+This plugin helps you to write a generator's template quickly
 
-Current it support Freezed, JsonSerializable
+Current it supports Freezed, JsonSerializable
 
 json inside
 ![json-inside](demo/json-inside.png)
