@@ -8,14 +8,8 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.tbm98.fluttergeneratorsnippets.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.tbm98.fluttergeneratorsnippets.services.MyProjectService"/>
         <defaultLiveTemplates file="/liveTemplates/Flutter_generator_snippets.xml"/>
         <liveTemplateContext implementation="com.github.tbm98.fluttergeneratorsnippets.FlutterContext" />
     </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.tbm98.fluttergeneratorsnippets.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>
