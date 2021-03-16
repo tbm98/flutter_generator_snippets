@@ -1,5 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 ## [Latest release]
+## [1.1.8]
 - remove redundant code,service
 
 ## [1.1.7]
