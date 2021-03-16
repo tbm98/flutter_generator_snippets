@@ -1,5 +1,7 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 ## [Latest release]
+- remove redundant code,service
+
 ## [1.1.7]
 - change name and icon plugin
 
