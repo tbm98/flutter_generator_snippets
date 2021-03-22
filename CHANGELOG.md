@@ -1,5 +1,7 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 ## [Latest release]
+- set `explicitToJson: true` by default
+
 ## [1.1.8]
 - remove redundant code,service
 
