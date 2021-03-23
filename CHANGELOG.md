@@ -1,5 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 ## [Latest release]
+## [1.1.9]
 - set `explicitToJson: true` by default
 
 ## [1.1.8]
