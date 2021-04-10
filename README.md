@@ -1,4 +1,4 @@
-# Flutter snippet for generator tool
+# Flutter snippet for generator tool [VSCode version](https://github.com/tbm98/flutter-snippets-for-generator-tool-vscode)
 
 ![Build](https://github.com/tbm98/flutter_generator_snippets/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/15774.svg)](https://plugins.jetbrains.com/plugin/15774)
