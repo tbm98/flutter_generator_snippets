@@ -1,5 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 ## [Latest release]
+- support since-build: 201 and until-build: 211.*
 ## [1.1.9]
 - set `explicitToJson: true` by default
 
