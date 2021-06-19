@@ -1,8 +1,9 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
 ## [Latest release]
-## [1.3.0]
+- support freezed since 0.14.0 (thanks to @fnicastri)
 
+## [1.3.0]
 - support since-build: 201 and until-build: 211.*
 - sync with intellij-platform-plugin-template v0.10.0
 
