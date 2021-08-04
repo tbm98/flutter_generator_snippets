@@ -1,6 +1,7 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
 ## [Latest release]
+## [1.3.2.2]
 ## [1.3.2]
 ## [1.3.1]
 - support freezed since 0.14.0 (thanks to @fnicastri)
