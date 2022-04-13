@@ -3,6 +3,8 @@
 # Plugin Changelog
 
 ## [Unreleased]
+
+## [2.221.0]
 ### Changed
 - Support 2022.1
 
@@ -43,6 +45,7 @@
 ## [1.1.4]
 ### Added
 - rename field snake by default
+
 
 ### Changed
 - update description and changed log
