@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>io.github.tbm98.flutter_generator_snippets</id>
-    <name>Flutter snippet for generator tool</name>
+    <name>Flutter Snippet For Generator Tool</name>
     <vendor email="tbm98.dev@gmail.com" url="https://tbm98.dev">tbm98</vendor>
 
     <!-- Product and plugin compatibility requirements -->
@@ -9,7 +9,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <defaultLiveTemplates file="/liveTemplates/Flutter_generator_snippets.xml"/>
-        <liveTemplateContext implementation="com.github.tbm98.fluttergeneratorsnippets.FlutterContext" />
+        <liveTemplateContext implementation="com.github.tbm98.fluttergeneratorsnippets.FlutterContext" contextId="FLUTTER_GENERATOR_SNIPPETS"/>
     </extensions>
 
 </idea-plugin>
