@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>io.github.tbm98.flutter_generator_snippets</id>
-    <name>Flutter Snippet For Generator Tool</name>
+    <name>Flutter snippet for generator tool</name>
     <vendor email="tbm98.dev@gmail.com" url="https://tbm98.dev">tbm98</vendor>
 
     <!-- Product and plugin compatibility requirements -->
