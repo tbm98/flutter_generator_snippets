@@ -18,7 +18,7 @@ freezed
 ![json-inside](demo/freezed.png)
 ## Requirements
 
-IntelliJ based: since-build: 202 [learn more](https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html)
+IntelliJ based: since-build: 203 [learn more](https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html)
 
 
 ## Installation
