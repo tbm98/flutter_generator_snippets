@@ -3,6 +3,8 @@
 # Plugin Changelog
 
 ## [Unreleased]
+
+## [2.223.1]
 - Add part
 - Remove @JsonSerializable
 
