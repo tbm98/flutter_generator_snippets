@@ -62,4 +62,12 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
+  <template name="mapper" value="import 'package:dart_mappable/dart_mappable.dart';&#10;&#10;part '$fileName$.mapper.dart';&#10;&#10;@MappableClass(caseStyle: CaseStyle.snakeCase)&#10;class $ClassName$ with $ClassName$Mappable {&#10;  &#10;  const $ClassName$();&#10;  &#10;  $Code$&#10;&#10;  static const fromMap = $ClassName$Mapper.fromMap;&#10;  static const fromJson = $ClassName$Mapper.fromJson;&#10;}" description="Create a dart_mappable." toReformat="false" toShortenFQNames="true">
+    <variable name="fileName" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ClassName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
 </templateSet>
